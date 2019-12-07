@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Builds
+asutton/clang_build/
+asutton/llvm_build/
