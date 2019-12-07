@@ -1,0 +1,6 @@
+[submodule "asutton/clang"]
+	path = asutton/clang
+	url = https://github.com/asutton/clang.git
+[submodule "asutton/llvm"]
+	path = asutton/llvm
+	url = https://github.com/llvm-mirror/llvm.git
