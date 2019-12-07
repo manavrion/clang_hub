@@ -4,3 +4,9 @@
 [submodule "asutton/llvm"]
 	path = asutton/llvm
 	url = https://github.com/llvm-mirror/llvm.git
+[submodule "matus-chochlik/clang"]
+	path = matus-chochlik/clang
+	url = https://github.com/matus-chochlik/clang.git
+[submodule "matus-chochlik/llvm"]
+	path = matus-chochlik/llvm
+	url = https://github.com/llvm-mirror/llvm.git

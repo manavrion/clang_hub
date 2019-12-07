@@ -34,3 +34,6 @@
 # Builds
 asutton/clang_build/
 asutton/llvm_build/
+
+matus-chochlik/clang_build/
+matus-chochlik/llvm_build/
