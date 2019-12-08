@@ -1,0 +1,3 @@
+set(CMAKE_CXX_COMPILER clang++-10)
+set(CMAKE_CC_COMPILER clang-10)
+set(CMAKE_BUILD_TYPE Release)
