@@ -38,4 +38,5 @@ asutton/llvm_build/
 matus-chochlik/clang_build/
 matus-chochlik/llvm_build/
 
-drec357/build/
+drec357/clang_build/
+drec357/llvm_build/

@@ -13,3 +13,6 @@
 [submodule "drec357/clang-meta"]
 	path = drec357/clang-meta
 	url = https://github.com/drec357/clang-meta.git
+[submodule "lock3/clang"]
+	path = lock3/clang
+	url = https://gitlab.com/lock3/clang.git
