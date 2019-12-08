@@ -10,3 +10,6 @@
 [submodule "matus-chochlik/llvm"]
 	path = matus-chochlik/llvm
 	url = https://github.com/llvm-mirror/llvm.git
+[submodule "drec357/clang-meta"]
+	path = drec357/clang-meta
+	url = https://github.com/drec357/clang-meta.git
