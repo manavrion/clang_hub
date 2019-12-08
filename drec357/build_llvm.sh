@@ -1,3 +1,4 @@
+cd "$(dirname "$0")"
 rm -rf llvm_build
 mkdir llvm_build
 cd llvm_build

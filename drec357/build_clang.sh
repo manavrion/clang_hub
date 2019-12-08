@@ -1,3 +1,4 @@
+cd "$(dirname "$0")"
 rm -rf clang_build
 mkdir clang_build
 cd clang_build
