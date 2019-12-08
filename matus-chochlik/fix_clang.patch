@@ -1,0 +1,13 @@
+diff --git a/lib/StaticAnalyzer/Core/Z3ConstraintManager.cpp b/lib/StaticAnalyzer/Core/Z3ConstraintManager.cpp
+index c4729f969f..523b7b6d0b 100644
+--- a/lib/StaticAnalyzer/Core/Z3ConstraintManager.cpp
++++ b/lib/StaticAnalyzer/Core/Z3ConstraintManager.cpp
+@@ -46,7 +46,7 @@ public:
+ // Function used to report errors
+ void Z3ErrorHandler(Z3_context Context, Z3_error_code Error) {
+   llvm::report_fatal_error("Z3 error: " +
+-                           llvm::Twine(Z3_get_error_msg(Context, Error)));
++                           llvm::Twine(Z3_get_error_msg(Error)));
+ }
+ 
+ /// Wrapper for Z3 context
