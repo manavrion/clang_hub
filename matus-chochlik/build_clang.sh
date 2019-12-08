@@ -12,6 +12,5 @@ cmake --build . --target clang -j 64
 cmake --build . --target clang
 
 # Revert patch
-cd "$(dirname "$0")"
-cd clang
+cd ../clang
 git checkout -- lib/StaticAnalyzer/Core/Z3ConstraintManager.cpp
